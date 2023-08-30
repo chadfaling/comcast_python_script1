@@ -11,8 +11,8 @@ async def scrape():
     # await page.waitForSelector('some_selector')
 
     # wait for pre-determined time, 10 seconds
-    #await page.waitForTimeout(20000)
-    await asyncio.sleep(20)
+    #await page.waitForTimeout(10000)
+    await asyncio.sleep(10)
 
     
     # Get the HTML content

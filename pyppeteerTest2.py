@@ -8,7 +8,7 @@ async def scrape():
     await page.goto('https://palermo.viper.comcast.net/#ccvs/f0d16f89-d587-4d85-ad70-f0ffbe831452')
     
     # Wait for a few seconds to let the page load (you can adjust this duration)
-    await asyncio.sleep(20)
+    await asyncio.sleep(10)
     
     # Query elements by their class names
     elements = await page.querySelectorAll('form-grid')
